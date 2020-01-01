@@ -3,10 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-print(setuptools.find_packages())
+
 setuptools.setup(
-     name='reformer',  
-     version='0.1.0',
+     name='reformer_lm',  
+     version='1.0.0',
      scripts=[] ,
      author="Zachary Bloss",
      author_email="zacharybloss@gmail.com",
@@ -18,7 +18,7 @@ setuptools.setup(
          "numpy>=1.18.0",
          "torch>=1.3"
      ],
-     packages=['reformer'],
+     packages=['reformer_lm'],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",

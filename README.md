@@ -7,7 +7,7 @@ Much of this code base is loosely translated from the jax implementation found h
 All of the hard work has been taken care of, all you need to do is instantiate the model!
 
 ```
-from reformer.reformer_lm import ReformerLM
+from reformer_lm.reformer_lm import ReformerLM
 import torch
 
 test = torch.rand((4, 4, 64))
