@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from reformer.gelu import GeLU
+from reformer_lm.gelu import GeLU
 
 
 class RevNetBlock(nn.Module):

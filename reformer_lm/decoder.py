@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from reformer.attention import ComputeAttentionHeads, ComputeAttentionOutput
-from reformer.chunk import Unchunk
-from reformer.broadcasted_dropout import BroadcastedDropout
+from reformer_lm.attention import ComputeAttentionHeads, ComputeAttentionOutput
+from reformer_lm.chunk import Unchunk
+from reformer_lm.broadcasted_dropout import BroadcastedDropout
 
 
 class DecoderBlock(nn.Module):

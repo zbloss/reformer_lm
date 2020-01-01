@@ -13,7 +13,7 @@ setuptools.setup(
      description="a Pytorch implementation of the Reformer network (https://openreview.net/forum?id=rkgNKkHtvB)",
      long_description=long_description,
    long_description_content_type="text/markdown",
-     url="https://github.com/zbloss/reformer",
+     url="https://github.com/zbloss/_lm",
      install_requires=[
          "numpy>=1.18.0",
          "torch>=1.3"

@@ -3,7 +3,7 @@ print(sys.path)
 
 
 import torch
-from .reformer.reformer_lm import ReformerLM
+from .reformer_lm.reformer_lm import ReformerLM
 
 test = torch.rand((4, 4, 64000))
 model = ReformerLM(
