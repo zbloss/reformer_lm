@@ -1,7 +1,7 @@
 version: '3'
 services:
   
-   notebook:
+  notebook:
      container_name: notebook
      labels:
        description: A linux development and testing environment. I'm working on Windows, this notebook is mostly used to 
@@ -14,3 +14,12 @@ services:
      build: './notebooks'
      command:
        jupyter notebook --no-browser --ip 0.0.0.0 --port 8888 --allow-root --notebook-dir='./home'
+  script:
+    container_name: script
+    labels:
+      description: Testing the model package scripting
+    volumes:
+      - .:/home
+    build: './reformer'
+    command:
+      python3 ./reformer/test.py
