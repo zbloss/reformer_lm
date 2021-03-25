@@ -1,6 +1,6 @@
 numpy==1.18.0
 Pillow==6.2.1
-PyYAML==5.2
+PyYAML==5.4
 reformer==0.0.1
 six==1.13.0
 torch==1.3.1
